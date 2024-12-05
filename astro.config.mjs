@@ -14,7 +14,7 @@ import vercel from '@astrojs/vercel/serverless'
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://tenderenden.github.io/',
-	repo: 'tenderenden.github.io',
+	// repo: 'tenderenden.github.io',
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
 		tailwind({
